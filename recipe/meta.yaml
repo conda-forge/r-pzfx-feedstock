@@ -1,4 +1,4 @@
-{% set version = '0.3.0' %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pzfx_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pzfx/pzfx_{{ version }}.tar.gz
-  sha256: f9e9781900011be1c91db4e1381481d94eca565a00f18c8a449813322ddf0b39
+  sha256: 9dd9871e8ae0066ebd9c0edbdcda7e421c87a600cb17c768a2d2c24547e747c3
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
